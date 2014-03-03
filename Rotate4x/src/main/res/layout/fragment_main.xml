@@ -1,0 +1,32 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Standard Portrait"
+            android:onClick="stdPortraitOnClick"  />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Reverse Portrait"
+            android:onClick="rvsPortraitOnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Standard Landscape"
+            android:onClick="stdLandscapeOnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Reverse Landscape"
+            android:onClick="rvsLandscapeOnClick" />
+    </LinearLayout>
